@@ -196,10 +196,6 @@ footer nav a {
     text-decoration: none;
 }
 
-.jumbo-img {
-    padding: 30px 0;
-}
-
 .navigation {
     /* border: 1px solid red; */
     display: flex;
@@ -218,3 +214,6 @@ footer nav a {
     align-items: flex-end;
 }
 
+.jumbo-img {
+    padding: 30px 0;
+}
