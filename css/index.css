@@ -180,6 +180,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 40px;
 }
 
 footer nav {
@@ -216,4 +217,66 @@ footer nav a {
 
 .jumbo-img {
     padding: 30px 0;
+}
+
+.about-page-img {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.about-content {
+    width: 800px;
+}
+
+.first-line {
+    margin: 20px 0;
+}
+
+/* hr {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+} */
+
+.middle-content-1 {
+    margin: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.second-line {
+    width: 95%;
+}
+
+.third-line {
+    width: 95%;
+}
+
+.middle-content-2 {
+    margin: 15px;
+    display: flex;
+}
+
+.fourth-line {
+    width: 95%;
+}
+
+.fifth-line {
+    width: 95%;
+}
+
+button {
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.bottom-content {
+    margin-top: 40px;
+}
+
+.heading-title {
+    margin-top: 10px;
 }
