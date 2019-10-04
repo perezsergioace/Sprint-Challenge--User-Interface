@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
 .top-content {
@@ -101,7 +102,17 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box, 
+.box-teal, 
+.box-gold, 
+.box-cadetblue, 
+.box-coral, 
+.box-crimson, 
+.box-forestgreen, 
+.box-darkorchid, 
+.box-hotpink, 
+.box-indigo, 
+.box-dodgerblue {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +121,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-teal {
+    background-color: teal;
+} 
+
+.box-gold {
+    background-color: gold;
+}
+
+.box-cadetblue {
+    background-color: cadetblue;
+}
+
+.box-coral {
+    background-color: coral;
+}
+
+.box-crimson {
+    background-color: crimson;
+}
+
+.box-forestgreen {
+    background-color: forestgreen;
+}
+
+.box-darkorchid {
+    background-color: darkorchid;
+}
+
+.box-hotpink {
+    background-color: hotpink;
+}
+
+.box-indigo {
+    background-color: indigo;
+}
+
+.box-dodgerblue {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +195,26 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.jumbo-img {
+    padding: 30px 0;
+}
+
+.navigation {
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    width: 799px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navigation nav a {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    margin-left: 60px;
+    align-items: flex-end;
+}
+
