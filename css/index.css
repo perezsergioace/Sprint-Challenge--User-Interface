@@ -255,6 +255,7 @@ footer nav a {
 .middle-content-2 {
     margin: 15px;
     display: flex;
+    width: 100%;
 }
 
 .fourth-line {
@@ -279,4 +280,36 @@ button {
 
 .heading-title {
     margin-top: 10px;
+}
+
+.jumbo-products-img {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.products-text-container {
+    margin-bottom: 40px; 
+}
+
+.product-one-section {
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product-two-section {
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+
+.products-text-container {
+    margin: 60px 0;
 }
