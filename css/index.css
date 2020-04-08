@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
 .top-content {
@@ -101,7 +102,17 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box, 
+.box-teal, 
+.box-gold, 
+.box-cadetblue, 
+.box-coral, 
+.box-crimson, 
+.box-forestgreen, 
+.box-darkorchid, 
+.box-hotpink, 
+.box-indigo, 
+.box-dodgerblue {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +121,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-teal {
+    background-color: teal;
+} 
+
+.box-gold {
+    background-color: gold;
+}
+
+.box-cadetblue {
+    background-color: cadetblue;
+}
+
+.box-coral {
+    background-color: coral;
+}
+
+.box-crimson {
+    background-color: crimson;
+}
+
+.box-forestgreen {
+    background-color: forestgreen;
+}
+
+.box-darkorchid {
+    background-color: darkorchid;
+}
+
+.box-hotpink {
+    background-color: hotpink;
+}
+
+.box-indigo {
+    background-color: indigo;
+}
+
+.box-dodgerblue {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -129,6 +180,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 40px;
 }
 
 footer nav {
@@ -143,4 +195,121 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navigation {
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    width: 799px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navigation nav a {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    margin-left: 60px;
+    align-items: flex-end;
+}
+
+.jumbo-img {
+    padding: 30px 0;
+}
+
+.about-page-img {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.about-content {
+    width: 800px;
+}
+
+.first-line {
+    margin: 20px 0;
+}
+
+/* hr {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+} */
+
+.middle-content-1 {
+    margin: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.second-line {
+    width: 95%;
+}
+
+.third-line {
+    width: 95%;
+}
+
+.middle-content-2 {
+    margin: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.fourth-line {
+    width: 95%;
+}
+
+.fifth-line {
+    width: 95%;
+}
+
+button {
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.bottom-content {
+    margin-top: 40px;
+}
+
+.heading-title {
+    margin-top: 10px;
+}
+
+.jumbo-products-img {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.products-text-container {
+    margin-bottom: 40px; 
+}
+
+.product-one-section {
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product-two-section {
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+
+.products-text-container {
+    margin: 60px 0;
 }
